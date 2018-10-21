@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                     try {
+
+
+
                         cameraSource.start(cameraView.getHolder());
                     } catch (IOException e) {
                         e.printStackTrace();

@@ -22,7 +22,6 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:text="hola"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         tools:layout_width="match_parent" />

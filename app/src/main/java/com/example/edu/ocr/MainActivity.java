@@ -74,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
                             ActivityCompat.requestPermissions(MainActivity.this,
                                     new String[]{Manifest.permission.CAMERA},
                                     RequestCameraPermissionID);
+
+
                             return;
                         }
                         cameraSource.start(cameraView.getHolder());
